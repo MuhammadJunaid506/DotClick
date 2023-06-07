@@ -1,0 +1,243 @@
+.products__list h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin: 30px;
+  color: #015249;
+} 
+
+ 
+  .shop__items__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .shop__items__cards__item {
+    background-color: var(--darkBlue);
+    margin: 0.5rem;
+    padding: 1rem;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: brown;
+  }
+  
+  .shop__items__cards__item .button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+  }
+  
+  .shop__items__cards__item h1 {
+    color: var(rgb(85, 22, 22));
+    text-transform: uppercase;
+    margin-top: 1rem;
+    width: 100%;
+  }
+  
+  /* .shop__items__cards__item__img {
+    width: 100%;
+    height: 100%;
+  } */
+  
+  .shop__items__cards__item img {
+    width: 100%;
+    max-width: 200px;
+    height: 150px;
+    object-fit: cover;
+  }
+  /* .shop__items__cards__item__img img {
+    width: 100%;
+    height: 100%;
+
+  } */
+  
+  .shop__items__cards__item__btn {
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+  }
+  
+  .shop__items__cards__item__btn .button {
+    width: 30%;
+    margin: auto;
+    padding: 0.7rem;
+  }
+  
+  /* Responsive Styles */
+  
+  @media screen and (max-width: 1050px) {
+    .shop .tournamentbt__body__item .item__btn {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .shop {
+      padding: 1rem 0;
+    }
+  
+    .other__items__2 {
+      width: 100%;
+      justify-content: space-around;
+    }
+  
+    .shop__body__item {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .shop__items__cards {
+      flex-direction: column;
+    }
+  
+    .shop__items__cards__item {
+      width: 90%;
+    }
+  
+    .shop__banner__text p {
+      width: 100%;
+      font-size: 14px;
+    }
+    .shop__banner__text h3 {
+      font-size: 30px;
+      margin: 0.5rem 0;
+    }
+    .shop__items__cards__item h3,
+    .shop__items .other__items__2 h3 {
+      font-size: 12px;
+    }
+    .shop__banner {
+      height: 20vh;
+    }
+  
+    .shop {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 808px) {
+    .shop__items__cards {
+      justify-content: space-around;
+    }
+  }
+  
+  @media screen and (max-width: 520px) {
+    .shop__items__cards__item__btn {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 430px) {
+    .other__items__2 {
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media screen and (max-width: 300px) {
+    .shop__banner__text h3 {
+      font-size: 20px;
+      margin: 0.3rem 0;
+    }
+    .shop__banner__text p {
+      font-size: 12px;
+      line-height: 1.5rem;
+    }
+    .shop__items__cards__item h3,
+    .shop__items .other__items__2 h3 {
+      font-size: 10px;
+    }
+    .shop__items__cards__item {
+      width: 100%;
+      height: auto;
+      margin: 0.5rem 0;
+    }
+    .shop__items__cards__item__img {
+      height: 40%;
+    }
+    .shop__items__cards__item__img img {
+      height: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 250px) {
+    .shop__banner__text h3 {
+      font-size: 16px;
+      margin: 0.2rem 0;
+    }
+    .shop__banner__text p {
+      font-size: 10px;
+      line-height: 1.3rem;
+    }
+    .shop__items__cards__item h3,
+    .shop__items .other__items__2 h3 {
+      font-size: 8px;
+    }
+    .shop__items__cards__item {
+      width: 100%;
+      height: auto;
+      margin: 0.3rem 0;
+    }
+    .shop__items__cards__item__img {
+      height: 30%;
+    }
+    .shop__items__cards__item__img img {
+      height: 100%;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+/* .product-list {
+    margin-top: 20px;
+    color: #e00016;;
+  }
+  
+  .product-list h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .product-list li {
+    margin-bottom: 20px;
+  }
+  
+  .product-list li span {
+    font-weight: bold;
+  }
+  
+  .product-list button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .product-list button:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Add additional styles as needed */
+   /* 
